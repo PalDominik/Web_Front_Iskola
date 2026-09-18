@@ -1,0 +1,41 @@
+WEBFEJLESZTÉSI FELADATÖTLETEK – VITE + TYPESCRIPT + RETOOL API + BOOTSTRAP
+
+Közös követelmények minden témához:
+- Retool API használata
+- Adatmodell: id (number), 2 db string mező, 1 db number mező, 1 db boolean mező
+- Kezdőlap: publikus listázás
+- Admin oldal: teljes CRUD
+- Moderator oldal: a boolean mező ki-/bekapcsolása
+- Igényes, reszponzív, Bootstrap alapú felület
+- Szorgalmi feladat: külön statisztika oldal
+
+KEZDŐLAP
+A felhasználó megtekintheti az API-ban található adatokat. Az oldal elsősorban az adatok kulturált és áttekinthető megjelenítésére szolgál.
+
+ADMIN
+Az adminisztrátor minden adatot kezelhet:
+- új rekord létrehozása
+- rekordok listázása
+- meglévő rekord módosítása
+- rekord törlése
+
+MODERATOR
+A moderator nem végez teljes CRUD műveletet. Kizárólag a boolean mező állapotát módosíthatja.
+
+SZORGALMI – STATISZTIKA
+Külön oldalon az API-ból lekért adatok alapján legalább 2–3 értelmes statisztikát kell megjeleníteni.
+
+5. ISKOLAI ESEMÉNYEK / PROGRAMOK
+
+Adatmodell:
+- id: azonosító
+- name: esemény neve
+- category: kategória
+- participants: résztvevők száma
+- active: aktív/meghirdetett-e
+
+Oldalak:
+- Kezdőlap: aktuális programok Bootstrap kártyákban
+- Admin: teljes CRUD
+- Moderator: az esemény meghirdetett/aktív állapotának kapcsolása
+- Szorgalmi: kategóriánkénti résztvevőszám, átlagos létszám és aktív események száma
